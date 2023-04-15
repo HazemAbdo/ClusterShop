@@ -1,2 +1,4 @@
 *.xlsx
 trail.ipynb
+.venv
+.vscode

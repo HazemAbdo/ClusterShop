@@ -1,4 +1,6 @@
 *.xlsx
+*.csv
+*.pdf
 trail.ipynb
 .venv
 .vscode

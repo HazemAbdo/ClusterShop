@@ -1,13 +1,7 @@
 # Big Data Project Document
 
-# 1. Team Members
-
-| Name                  | Sec | B.N. |
-| --------------------- | --- | ---- |
-| Ahmed Khaled Mahmoud  | 1   | 5    |
-| Ahmed Sayed           | 1   | 6    |
-| Ahmed Mahmoud Mohamed | 1   | 12   |
-| Hazem Mahmoud Abdo    | 1   | 25   |
+# ClusterShop
+The goal of this project is to use clustering algorithms to segment customers of an online retailer based on their purchasing behavior.
 
 # 2. Problem Description
 
@@ -177,7 +171,7 @@ root
 
 ![Untitled](readme_images/kmeans.png)
 
-![](readme_images/hei_cluster_analysis.png)
+![](https://github.com/HazemAbdo/ClusterShop/blob/main/clusters_images/kmeans/cluster_analysis.svg)
 
 > 'AvgBasketPrice', 'FrequencyOfPurchases', 'AvgBasketSize', 'CustomerLifetimeValue', 'unique_transactions_q1', 'unique_transactions_q2', 'unique_transactions_q3', 
 >  'unique_transactions_q4', 'basket_diversity', 'ProductReturns'
@@ -207,7 +201,7 @@ root
 
 ![cluster_analysis.svg](readme_images/bisecting.png)
 
-![hei_cluster_analysis.svg](readme_images/hei_cluster_analysis.png)
+![hei_cluster_analysis.svg](https://github.com/HazemAbdo/ClusterShop/blob/main/clusters_images/bisceting/hei_cluster_analysis.svg)
 
 ## 7.3 **Agglomerative Clustering**
 
@@ -251,12 +245,3 @@ Based on the **RFM** analysis using the features mentioned, we can segment cus
    1. Customers who have a **high monetary value, but a low frequency of purchase**, could be considered high-spending customers. The business could focus on understanding their purchasing behavior and preferences and offering them **personalized recommendations or exclusive products.**
 5. Occasional shoppers: 
    1. Customers who have made a few purchases, but have not spent a significant amount of money, could be considered as occasional shoppers. The business could focus on offering them incentives or **personalized recommendations to encourage them to make more purchases**.
-
-# 9. Workload division
-
-| Name          | Work                        |
-| ------------- | --------------------------- |
-| Ahmed Khaled  | Association rules + K-means |
-| Ahmed Sayed   | Bisecting K-means           |
-| Ahmed Mahmoud | Agglomerative               |
-| Hazem Abdo    | EDA                         |
